@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 20px 12%;
+
+}
+.Nav-brand {
+    font-family: 'Kalam', sans-serif;
+    font-weight: bold;
+    color: #9E6236;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul  {
+    display: flex;
+
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 0 30px;
+    color: #D19C75;
+}
+
+.menu-icon {
+    background-color: #D19C75;
+    padding: 15px 15px;
+    border-radius: 50%;
+    color: white;
+    display: none;
+}
+
+.icons i{
+    color: #D19C75;
+    font-size: 25px;
+    
+}
+
+button {
+    background-color: #D19C75;
+    border: 1px solid #D19C75;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 10px 3%;
+    color: white;
+}
+
+@media (max-width:1280px) {
+    nav {
+        padding: 14px 2%;
+        transition: .2s;
+    }
+    ul li {
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width:1090) {
+    .menu-icon{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 270px;
+        height: 29vh;
+        display: flex;
+        background-color: #9E6236;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+
+   ul li {
+    display: block;
+    margin: 12px 0;
+    padding: 0 25px;
+    transition: all .50s ease;
+   }
+}
+
+
+@media (max-width: 540px) {
+    nav {
+        padding: 10px 5%;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .Nav-brand {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .nav-icons {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    button {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+

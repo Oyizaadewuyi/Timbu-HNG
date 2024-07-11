@@ -83,7 +83,7 @@ button {
 
 @media (max-width:1090px) {
     .menu-icon{
-        display: block;
+        display: flex;
     }
 
     .nav-links{

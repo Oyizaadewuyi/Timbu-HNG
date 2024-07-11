@@ -47,6 +47,7 @@ ul li {
     border-radius: 50%;
     color: white;
     display: none;
+    cursor: pointer;
 }
 
 .icons i{
@@ -80,7 +81,7 @@ button {
     }
 }
 
-@media (max-width:1090) {
+@media (max-width:1090px) {
     .menu-icon{
         display: block;
     }
@@ -117,7 +118,11 @@ button {
     .nav-links {
         display: none;
     }
-
+.nav-links.show {
+    display: block;
+    margin-top: 20px;
+}
+    
     .Nav-brand {
         text-align: center;
         margin: 0 auto;

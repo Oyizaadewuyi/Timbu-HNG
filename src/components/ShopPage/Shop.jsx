@@ -21,6 +21,7 @@ import dress9 from '../../assets/dress4.png'
 function Shop() {
     const [amount, setAmount] = useState(1);
     return (
+      
         <>
             <h1 className="shop-heading">Shop with us here</h1>
             <ul className="shop-sections">
@@ -226,6 +227,7 @@ function Shop() {
                 <li className="page-4"><Link>4</Link></li>
                 <li className="next-page"><Link>Next</Link></li>
             </ul>
+            
         </>
     );
 }

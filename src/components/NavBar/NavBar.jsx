@@ -20,7 +20,7 @@ const NavBar = () => {
             <div className={`nav-links $ {showMenu ? 'show' : ''}`}>
                 <ul>
                 <li className='links'><Link to="/home">Home</Link></li>
-                <li>About Us</li>
+                <li><Link to="/addtocart"> About Us</Link></li>
                 <li className='active'><Link to="/shop">Shop</Link></li>
 
 

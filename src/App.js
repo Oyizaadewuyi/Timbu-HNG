@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
 import Shop from './components/ShopPage/Shop';
 import Footer from './components/Footer/Footer';
+import AddToCart from './components/AddToCart/AddToCart';
 
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
       <Routes>
          <Route path='home' element={<Home />} />
          <Route path='shop' element={<Shop />} />
-        {/* <Route path='cart' element={<Cart />} />
-        <Route path='checkout' element={<Checkout />} /> */}
+         <Route path='addtocart' element={<AddToCart/>} /> 
+        {/* // <Route path='checkout' element={<Checkout />} />  */}
       </Routes>
          <Footer />  
     </BrowserRouter>

@@ -86,7 +86,7 @@ button {
         display: flex;
     }
 
-     /* .nav-links{
+     .nav-links{
         position: absolute;
         top: 7%;
         right: 65%;
@@ -98,7 +98,7 @@ button {
         justify-content: flex-start;
         border-radius: 10px;
         transition: all .50s ease;
-    }  */
+    } 
 
    ul li {
     display: block;
@@ -143,7 +143,7 @@ button {
         display: flex;
     }
 
-     /* .nav-links{
+     .nav-links{
         position: absolute;
         top: 10%;
         right: 20%;
@@ -159,11 +159,11 @@ button {
 
    ul li {
     display: block;
-    flex-direction: column; */
+    flex-direction: column;
     /* margin: 12px 0; */
     /* padding: 0 25px;
     gap: 5px; */
-    /* transition: all .50s ease;
-   } */
+    transition: all .50s ease;
+   }
 
 }

@@ -80,13 +80,13 @@ const AddToCart = () => {
                 </div>
                 <div className="quantity">
                   <p>Quantity:</p>
-                  <div className="btn">
+                 
                   <button className="quantity-button">-</button>
                   <input type="text" value="1" readOnly />
                   <button className="quantity-button">+</button>
                   </div>
                 </div>
-              </div>
+              
               <button className="remove-button">Remove</button>
             </div>
             <p className="item-price">$39.99</p>

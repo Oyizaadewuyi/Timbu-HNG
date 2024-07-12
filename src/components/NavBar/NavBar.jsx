@@ -7,7 +7,7 @@ const NavBar = () => {
     useState(false)
 
     const toggleMenu =() => {
-        setShowMenu(!showMenu);
+      setShowMenu(!showMenu);
     };
   return (
     
@@ -15,7 +15,8 @@ const NavBar = () => {
         <nav>
             <div className="menu-icon"
             onClick={toggleMenu}>
-            <i className="ri-menu-line"></i>
+                <i className={showMenu ? 'ri-close-line' :
+            'ri-menu-line'}></i>
             </div>
             <div className={`nav-links $ {showMenu ? 'show' : ''}`}>
                 <ul>
@@ -36,7 +37,9 @@ const NavBar = () => {
             <a href="#" className='icons'> <i className="ri-shopping-cart-2-line"></i></a>
             </div>
             
-                <button>Sign Up</button>
+            {/* <div className={`button $ {showMenu ? 'show' : ''}`}>   */}
+                <button >Sign Up</button>
+                
                 
         </nav>
     </header>

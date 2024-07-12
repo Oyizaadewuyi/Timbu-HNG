@@ -423,12 +423,19 @@
 
 }
 
- @media(max-width:680px){
+ @media(max-width:768px){
  .back-button {
   margin-left: -2%;
 
  }
+ .shopping-cart h1 {
+  text-align: center;
+  margin-left: 30%;
+  font-size: 30px;
+  margin-top: 4%;
+ }
 
+ 
  }
 
  @media(max-width:540px){

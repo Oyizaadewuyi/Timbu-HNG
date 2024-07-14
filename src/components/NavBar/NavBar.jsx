@@ -21,7 +21,7 @@ const NavBar = () => {
             <div className={`nav-links $ {showMenu ? 'show' : ''}`}>
                 <ul>
                 <li className='links'><Link to="/home">Home</Link></li>
-                <li><Link to="/addtocart"> About Us</Link></li>
+                <li> About Us</li>
                 <li className='active'><Link to="/shop">Shop</Link></li>
 
 
@@ -34,7 +34,7 @@ const NavBar = () => {
 
             <div className='nav-icons'>
             <a href="#" className='icons'><i className="ri-search-line"></i></a>
-            <a href="#" className='icons'> <i className="ri-shopping-cart-2-line"></i></a>
+            <a href="#" className='icons'><Link to="/addtocart"> <i className="ri-shopping-cart-2-line"></i></Link></a>
             </div>
             
             {/* <div className={`button $ {showMenu ? 'show' : ''}`}>   */}

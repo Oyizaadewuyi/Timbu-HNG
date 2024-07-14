@@ -83,6 +83,10 @@
      
  
   }
+
+  .amount input {
+    margin-top: 20%;
+  }
   
   /* .s, .m, .l, .xl {
     gap: 10px;

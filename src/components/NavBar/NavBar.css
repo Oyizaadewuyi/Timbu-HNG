@@ -120,8 +120,11 @@ button {
         
     }
 
-    button {
+    nav button {
         display: none;
+    }
+    .nav-icons {
+        padding: 0 5%;
     }
 }
 
@@ -137,34 +140,11 @@ button {
     }
 }
 
-/* @media (max-width:1090px) { */
-    /* .menu-icon{
-        display: flex;
+@media (max-width:370px) {
+    .Nav-brand {
+        font-size: 15px;
+        margin-left: 5%;
     }
+}
 
-      .nav-links{
-        position: absolute;
-        top: 7%;
-        right: 65%;
-        width: 270px;
-        height: 10vh;
-        display: flex;
-        background-color: white;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all .50s ease;
-    }  
-
-   ul li {
-    display: block;
-    flex-direction: column;
-    margin: 12px 0;
-    padding: 0 25px;
-    transition: all .50s ease;
-   }
-
-   
-
-   } */
 

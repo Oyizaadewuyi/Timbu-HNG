@@ -4,8 +4,14 @@ import './AddToCart.css'
 import dress1 from '../../assets/dress1.png'
 import dress9 from '../../assets/dress3.png'
 import dress2 from '../../assets/dress7.png'
+import { useNavigate } from "react-router-dom";
 
 const AddToCart = () => {
+  const navigate = useNavigate();
+  const handleCheckout = () => {
+    navigate ('/checkout');
+
+  };
     return (
       <div className="shopping-cart">
         <div className="cart-header">
@@ -93,7 +99,7 @@ const AddToCart = () => {
           </div>
           
         </div>
-        <div className="order-summary">
+        <div className="order-sum">
           <h2>Order Summary</h2>
           <div className="total-price">
           <p>Subtotal: </p>
@@ -103,7 +109,7 @@ const AddToCart = () => {
           <p>Total amount: </p>
           <h6>$170.45</h6>
           </div>
-          <button className="checkout-button">Proceed To Checkout</button>
+          <button className="checkout-button" onClick={handleCheckout}>Proceed To Checkout</button>
           <div className="coupon-code">
             <h5>Coupon code</h5>
             <input type="text" placeholder="Enter coupon code" />

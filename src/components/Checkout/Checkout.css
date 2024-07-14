@@ -1,0 +1,238 @@
+body {
+    font-family: 'Montserrat',sans-serif;
+  }
+  
+  .checkout-container {
+    display: flex;
+    padding: 30px 8%;
+    justify-content: space-between;
+  }
+
+  .checkout-form {
+    background-color: #f6f6f6;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+  }
+
+  .order-summary {
+    background-color: #f6f6f6;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .checkout-form {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .checkout-form form {
+    margin-top: 5%;
+  }
+
+  .check-back {
+    display: flex;
+
+  }
+
+  .check-back button {
+    border: none;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .checkout-form P {
+    color: #333333;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 5%;
+  }
+
+  .check-back h2 {
+    margin-top: 4%;
+  }
+  .order-summary {
+    width: 350px;
+  }
+  .order-summary p{
+    margin-top: 7%;
+  }
+
+  .order-summary h5 {
+    margin-left: 70%;
+    margin-top: -7%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 20px;
+    background-color: #d19c75;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: #ff6347;
+  }
+  .terms-condition {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+  }  
+  .terms-condition input  {
+    margin-left: -50%;
+    
+    
+    }
+    .terms-condition label {
+        margin-left: -40%;
+        font-size: 15px;
+    }
+
+    .method {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .method input {
+        margin-left: -90%;
+        margin-top: 5%;
+    }
+
+    .method label {
+        margin-top: -12%;
+        margin-left: -30%;
+        text-align: start;
+    }
+
+    .payment-method {
+        display: flex;align-items: center;
+        margin-top: 5%;
+        
+    }
+    .payment-method input {
+        margin-left: -47%;
+    }
+    .payment-method label {
+        font-size: 17px;
+        margin-left: -45%;
+        margin-top: -2%;
+        font-weight: 500;
+    }
+
+    .method p {
+        margin-top: -3%;
+        text-align: start;
+        margin-left: 7%;
+        font-size: 12px;
+    }
+
+    .method h3 {
+        margin-left: -43%;
+        margin-top: 10%;
+    }
+    
+
+     @media (max-width: 1024px) {
+        .checkout-container {
+           
+            flex-direction: column;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+
+        .order-summary {
+            /* margin-left: 25%; */
+            width: 90%;
+            margin-left: 3%;
+            margin-top: 10%;
+           
+        }
+        
+    }
+
+    @media (max-width: 769px) {
+        .check-back h2 {
+          margin-top: 5%;
+        }
+        .order-summary {
+        margin-left: 4%;
+            width: 90%;
+            margin-top: 10%;
+        }
+        .checkout-container {
+           
+            width: 90%;
+        }
+
+        .method label {
+            font-size: 20px;
+            margin-top: -35px;
+        }
+    }
+
+    @media (max-width: 548px) {
+        .check-back h2 {
+            margin-top: 7%;
+        }
+
+        .order-summary {
+            margin-left: 2%;
+        }
+        .checkout-container {
+            margin-left: 3%;
+            width: 100%;
+        }
+    }
+
+    @media(max-width:435px) {
+        .check-back h2 {
+            margin-top: 10%;
+
+        }    
+        
+        .order-summary {
+          margin-left: 7px;
+           margin-top: 10%;
+           width: 90%;
+           
+        }
+        .checkout-container {
+            margin-left: 3%;
+        }
+    }
+
+     @media(max-width:364px) { 
+        .method label {
+            margin-left: 2%;
+            margin-top: -15%;
+        }
+
+        .method input {
+            margin-top: 15%;
+        }
+
+        .terms-condition label {
+            font-size: 12px;
+        }
+         } 
